@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Example from './counter.js'
-
+import Example from './counter.js';
+import Example2 from './useStateDemo.js';
 
 import ProfilePageFunction from './function';
 import ProfilePageClass from './class';
@@ -46,7 +46,7 @@ class Bpp extends React.Component {
 
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<Bpp />, rootElement);
+ReactDOM.render(<Example2 />, rootElement);
 
 
 /* ReactDOM.render(

@@ -3,10 +3,11 @@ import React from 'react';
 function ProfilePage(props) {
   const showMessage = () => {
     alert('Followed ' + props.user);
-    console.log(this)
+    
   };
 
   const handleClick = () => {
+    console.log(this)
     setTimeout(showMessage, 3000);
   };
 
