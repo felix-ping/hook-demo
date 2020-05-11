@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Example from './counter.js';
 import Example2 from './useStateDemo.js';
+import Example3 from './useEffectDemo.js';
 
 import ProfilePageFunction from './function';
 import ProfilePageClass from './class';
@@ -46,7 +47,7 @@ class Bpp extends React.Component {
 
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<Example2 />, rootElement);
+ReactDOM.render(<Example3/>, rootElement);
 
 
 /* ReactDOM.render(
