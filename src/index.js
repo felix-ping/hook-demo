@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import Game from './chess/game.js'
+/* import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Example from './counter.js';
@@ -43,11 +44,11 @@ class Bpp extends React.Component {
       </>
     )
   }
-}
+} */
 
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<Example3/>, rootElement);
+ReactDOM.render(<Game/>, rootElement);
 
 
 /* ReactDOM.render(
